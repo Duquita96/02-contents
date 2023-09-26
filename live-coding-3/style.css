@@ -1,0 +1,31 @@
+body {
+    background-color: rgba(228, 288, 140, 0.5);
+}
+h1 {
+    color: rgb(15, 18, 179);
+}
+
+/* color:#fffafa; */
+h2 {
+    color: #005986;
+}
+
+h1:hover {
+    background-color: #efefef;
+}
+
+h2:hover {
+    background-color: #efefef;
+}
+
+
+/* multiple selectors */
+h1:hover,
+h2:hover {
+    color: rgba(98, 185, 11, 0.924);
+}
+
+a:active {
+    background-color: #ae2323;
+
+}
